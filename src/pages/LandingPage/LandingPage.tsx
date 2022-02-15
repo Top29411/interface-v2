@@ -27,6 +27,10 @@ import { ReactComponent as RedditIcon } from 'assets/images/social/Reddit.svg';
 import { ReactComponent as TelegramIcon } from 'assets/images/social/Telegram.svg';
 import { ReactComponent as TwitterIcon } from 'assets/images/social/Twitter.svg';
 import { ReactComponent as YouTubeIcon } from 'assets/images/social/YouTube.svg';
+
+import { ReactComponent as InstagramIcon } from 'assets/images/social/Instagram.svg';
+import { ReactComponent as FacebookIcon } from 'assets/images/social/Facebook.svg';
+
 import {
   Swap,
   CurrencyInput,
@@ -474,6 +478,16 @@ const LandingPage: React.FC = () => {
     {
       link: 'https://www.reddit.com/r/QuickSwap/',
       icon: <RedditIcon />,
+      title: 'Reddit',
+    },
+    {
+      link: 'https://www.facebook.com/intergalactic.racing',
+      icon: <FacebookIcon />,
+      title: 'Reddit',
+    },
+    {
+      link: 'https://www.instagram.com/intergalactic.racing/',
+      icon: <InstagramIcon />,
       title: 'Reddit',
     },
     {
